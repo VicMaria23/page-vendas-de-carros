@@ -1,9 +1,15 @@
+*{
+	padding: 0;
+	margin: 0;
+	box-sizing: border-box;
+}
+
 body{
 	background-image: url(./imgs/img-contatos.jpeg);
 	background-repeat: no-repeat;
 	background-size: cover;
 	background-attachment: fixed;
-	background-size: 100% 100%;
+	background-position: center;
 }
 
 topicos {
@@ -34,13 +40,13 @@ topicos {
 	text-align: center;
 	padding: 10px 11px;
 	margin-right: 20px;
-	font-size: 20px;
+	font-size: 23px;
 	font-family: "Oswald";
 }
 
 .nav-list li a:hover{
 	background-color: #111;
-	font-size: 21px;
+	font-size: 25px;
 }
 
 /*DESIGN DO DROPDOWN*/
@@ -58,9 +64,25 @@ topicos {
 	float: none;
 	color: black;
 	display: block;
+    margin-right: 0 !important;
 }
 
 .dropdown:hover .dropdown-content{
 	display: block;
 	background-color: #ddd;
+    z-index: 999;
+}
+
+.contact-info {
+    font-size: larger;
+    color: white;
+    float: right;
+    margin-right: 10em;
+    font-family: "Oswald";
+    text-transform: uppercase;
+	text-shadow: 4px 4px 8px black;
+	text-align: justify;
+	margin-top: 17em;
+    margin-right: 17em;
+	background-color: rgba(0, 0, 0, 0.5);
 }
