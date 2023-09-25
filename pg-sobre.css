@@ -1,0 +1,74 @@
+body{
+	background-image: url(./imgs/velocimetro2.jpeg);
+	background-repeat: no-repeat;
+	background-size: cover;
+	background-attachment: fixed;
+	background-size: 100% 100%;
+}
+
+topicos {
+	background-color: #FFFFCC;
+}
+
+.navbar{
+	background-color: transparent;
+	display: flex;
+	justify-content: center;
+}
+
+.nav-list{
+	list-style-type: none;
+	margin: 0;
+	padding: 0;
+	overflow: hidden;
+}
+
+.nav-list li{
+	float: left;
+}
+
+.nav-list li a{
+	display: block;
+	text-decoration: none;
+	color: white;
+	text-align: center;
+	padding: 10px 11px;
+	margin-right: 20px;
+	font-size: 20px;
+	font-family: "Oswald";
+}
+
+.nav-list li a:hover{
+	background-color: #111;
+	font-size: 21px;
+}
+
+/*DESIGN DO DROPDOWN*/
+.dropdown{
+	float: left;
+	overflow: hidden;
+}
+
+.dropdown-content{
+	display: none;
+	position: absolute;
+}
+
+.dropdown-content a{
+	float: none;
+	color: black;
+	display: block;
+}
+
+.dropdown:hover .dropdown-content{
+	display: block;
+	background-color: #ddd;
+}
+
+.titulo-sobre {
+    color: white;
+}
+
+.texto-sobre {
+    color: white;
+}
