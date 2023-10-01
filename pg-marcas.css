@@ -5,11 +5,7 @@
 }
 
 body{
-	background-image: url(./imgs/);
-    background-repeat: no-repeat;
-	background-size: cover;
-	background-attachment: fixed;
-	background-position: center;
+	background-color: rgba(0, 0, 0, .9);
 }
 
 topicos {
@@ -64,9 +60,84 @@ topicos {
 	float: none;
 	color: black;
 	display: block;
+	margin-right: 0 !important;
 }
 
 .dropdown:hover .dropdown-content{
 	display: block;
 	background-color: #ddd;
+	z-index: 999;
+}
+
+.row {
+    max-width: 100%;
+    margin: 0 auto;
+}
+
+.row::after {
+    content: "";
+    display: table;
+    clear: both;
+}
+
+.row [class^="col-"] {
+    float: left;
+}
+
+.row [class^="col-"]:not(:last-child) {
+    margin-right: 60px;
+}
+
+.row .col-1-of-2 {
+    width: calc((100% - 60px) / 2);
+}
+
+.row .col-1-of-3 {
+    width: calc((100% - 2 * 60px) / 3);
+}
+
+.row .col-2-of-3 {
+    width: calc(2 * ((100% - 2 * 60px) / 3) + 60px);
+}
+
+.row .col-1-of-4 {
+    width: calc((100% - 3 * 60px) / 4);
+}
+
+.row .col-2-of-4 {
+    width: calc(2 * ((100% - 3 * 60px) / 4) + 60px);
+}
+
+.row .col-3-of-4 {
+    width: calc(3 * ((100% - 3 * 60px) / 4) + 2 * 60px);
+}
+
+.ford-box {
+	margin-top: 50px;
+}
+
+.ford-box, .volks-box, .toyota-box, .fiat-box {
+	padding-left: 30px;
+	padding-right: 30px;
+}
+
+.ford-box .col-1-of-3 p,
+.volks-box .col-1-of-3 p,
+.toyota-box .col-1-of-3 p,
+.fiat-box .col-1-of-3 p {
+	color: white;
+	margin-bottom: 10px;
+}
+
+.ford-box .col-1-of-3 img,
+.volks-box .col-1-of-3 img,
+.toyota-box .col-1-of-3 img,
+.fiat-box .col-1-of-3 img {
+	width: -webkit-fill-available;
+	box-shadow: 4px 4px 8px #958080;
+	margin-bottom: 15px;
+}
+
+.bold {
+	font-weight: bold !important;
 }

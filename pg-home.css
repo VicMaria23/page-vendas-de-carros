@@ -10,7 +10,6 @@ body{
 	background-size: cover;
 	background-attachment: fixed;
 	background-position: center;
-
 }
 
 topicos {
@@ -114,4 +113,18 @@ p .span{
 @-webkit-keyframes aitf {
 	0% { background-position: 0% 50%; }
 	100% { background-position: 100% 50%; }
+}
+
+footer {
+	background-color: transparent;
+	position: absolute;
+	bottom: 0;
+	width: 100%;
+	text-align: center;
+	display: inline-block;
+	font-size: 20px;
+}
+
+.icons-footer {
+	text-decoration: none;
 }
