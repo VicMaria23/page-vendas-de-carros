@@ -103,3 +103,17 @@ topicos {
 	background-color: rgba(0, 0, 0, 0.5);
     font-size: 20px;
 }
+
+footer {
+	background-color: transparent;
+	position: absolute;
+	bottom: 0;
+	width: 100%;
+	text-align: center;
+	display: inline-block;
+	font-size: 20px;
+}
+
+.icons-footer {
+	text-decoration: none;
+}

@@ -45,7 +45,7 @@ topicos {
 	font-size: 21px;
 }
 
-/*DESIGN DO DROPDOWN*/
+/* DESIGN DO DROPDOWN */
 .dropdown{
 	float: left;
 	overflow: hidden;
@@ -140,4 +140,31 @@ topicos {
 
 .bold {
 	font-weight: bold !important;
+}
+
+.titulo-ford, .titulo-volks, .titulo-fiat, .titulo-toyota {
+	color: white;
+    text-transform: uppercase;
+	text-shadow: 4px 4px 8px black;
+	display: inline-block;
+	border: 1px solid white;
+	border-width: 2px 0;
+	text-align: center;
+	width: 96%;
+	margin-left: 2%;
+	margin-top: 40px;
+}
+
+footer {
+	background-color: transparent;
+	position: absolute;
+	/* bottom: 0; */
+	width: 100%;
+	text-align: center;
+	display: inline-block;
+	font-size: 20px;
+}
+
+.icons-footer {
+	text-decoration: none;
 }
